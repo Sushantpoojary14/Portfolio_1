@@ -1,0 +1,6 @@
+/* The backdrop element to create the blur effect */
+.backdrop {
+    background: rgba(10, 9, 9, 0.3); 
+ 
+  }
+  

@@ -1,0 +1,26 @@
+@keyframes progress-bar {
+  0% {
+    width: 0; /* Initial width of the progress bar */
+  }
+
+}
+
+@-webkit-keyframes progress-bar {
+  0% {
+    width: 0;
+  }
+
+}
+
+@-moz-keyframes progress-bar {
+  0% {
+    width: 0;
+  }
+
+}
+
+.progress-bar {
+  -webkit-animation: progress-bar 2s ;
+  -moz-animation: progress-bar 2s ;
+  animation: progress-bar 4s ;
+}
