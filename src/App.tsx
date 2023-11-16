@@ -7,9 +7,9 @@ import Navbar from "./component/Navbar";
 import SecondSection from "./component/SecondSection";
 import ThirdSection from "./component/ThirdSection";
 import { faStumbleuponCircle } from "@fortawesome/free-brands-svg-icons";
-import { useEffect, useRef, useState } from "react";
+// import { useEffect, useRef, useState } from "react";
 function App() {
-  const [arrow, setArrow] = useState(0);
+  // const [arrow, setArrow] = useState(0);
 
     const handleScroll = () => {
       const scrollPosition = window.scrollY; 
@@ -19,17 +19,17 @@ function App() {
       // => scroll position
       
     }
-    const parentref = useRef<any>();
+    // const parentref = useRef<any>();
     // const handleScroll= () => {
     //   parentref.current.scrollTop = 200;
     // };
-  useEffect(() => {
-    handleScroll();
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-    }, []);
+  // useEffect(() => {
+  //   handleScroll();
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  //   }, []);
   return (
     <div id="main" className="pt-10">
       <Navbar />

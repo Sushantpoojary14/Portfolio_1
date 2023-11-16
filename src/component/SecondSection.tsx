@@ -13,10 +13,10 @@ type projectType = {
 const SecondSection = () => {
   const [open , SetOpen ] = useState<boolean>(false);
   const [index , SetIndex ] = useState<number>(0);
-  // const openImage = (index:number) => {
-  //   SetIndex(index)
-  //   SetOpen(true);
-  // };
+  const openImage = (index:number) => {
+    SetIndex(index)
+    SetOpen(true);
+  };
   const closeImage = () => {
     SetOpen(false);
   };
