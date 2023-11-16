@@ -1,17 +1,17 @@
 import { Document, Page, Text, View } from "@react-pdf/renderer";
 
-const styles = {
-  page: {
-    display: "flex",
-    flexDirection: "column",
-    backgroundColor: "#E4E4E4",
-  },
-  section: {
-    margin: 10,
-    padding: 10,
-    flexGrow: 1,
-  },
-};
+// const styles = {
+//   page: {
+//     display: "flex",
+//     flexDirection: "column",
+//     backgroundColor: "#E4E4E4",
+//   },
+//   section: {
+//     margin: 10,
+//     padding: 10,
+//     flexGrow: 1,
+//   },
+// };
 
 const CVDoc = () => {
   return (

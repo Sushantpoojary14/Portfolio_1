@@ -1,7 +1,7 @@
 import CustomButton from "../common/Button";
 import projects from "../json/projectData";
 import "../assets/css/SecondSection.css";
-import { useState } from "react";
+// import { useState } from "react";
 
 type projectType = {
   p_name: string;
@@ -11,15 +11,15 @@ type projectType = {
   img_url: string;
 };
 const SecondSection = () => {
-  const [open , SetOpen ] = useState<boolean>(false);
-  const [index , SetIndex ] = useState<number>(0);
-  const openImage = (index:number) => {
-    SetIndex(index)
-    SetOpen(true);
-  };
-  const closeImage = () => {
-    SetOpen(false);
-  };
+  // const [open , SetOpen ] = useState<boolean>(false);
+  // const [index , SetIndex ] = useState<number>(0);
+  // const openImage = (index:number) => {
+  //   SetIndex(index)
+  //   SetOpen(true);
+  // };
+  // const closeImage = () => {
+  //   SetOpen(false);
+  // };
   return (
     <>
       <div className="flex flex-col space-y-10 w-[100%] sm:w-[92%] md:w-[87%] mx-auto">
@@ -68,7 +68,7 @@ const SecondSection = () => {
           </div>
       
       </div>
-      <div onClick={closeImage} className={`${open ? "scale-110" :"scale-0" } 
+      {/* <div onClick={closeImage} className={`${open ? "scale-110" :"scale-0" } 
       fixed top-[5%] z-50 w-full h-full transition ease-in-out delay-150 duration-300`}>
         <div
           className="fixed z-0 top-0 bottom-0 h-full w-full cursor-pointer"
@@ -78,7 +78,7 @@ const SecondSection = () => {
           src={projects[index].img_url}
           className="w-[80%] h-[30%] sm:w-[85%]  sm:h-[45%] md:w-[45%] md:h-[45%] mt-72 md:mt-40 mx-auto z-10"
         />
-      </div>
+      </div> */}
     </>
   );
 };
