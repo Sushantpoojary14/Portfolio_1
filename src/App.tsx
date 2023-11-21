@@ -31,7 +31,7 @@ function App() {
   //   };
   //   }, []);
   return (
-    <div id="main" className="pt-10">
+    <div id="main" className="pt-5">
       <Navbar />
       <div className="flex flex-col space-y-32">
         <div id="section1">

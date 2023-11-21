@@ -11,7 +11,7 @@ const ThirdSection = () => {
   const { ref, inView } = useInView({
      // Only trigger once when the element enters the viewport
   });
-  console.log(inView);
+  // console.log(inView);
   
   return (
     <div className="flex flex-col space-y-10 w-[88%] md:w-[80%] mx-auto" ref={ref}>
@@ -19,9 +19,9 @@ const ThirdSection = () => {
         <h2 className="text-4xl text-left">Technologies</h2>
       </div>
       <div className="w-full space-y-7">
-        {skills?.map((item: skillType) => {
+        {skills?.map((item: skillType,key:number) => {
           return (
-            <div className="flex flex-col space-y-4">
+            <div className="flex flex-col space-y-4" key={key}>
               <div className="flex flex-row  justify-between">
                 <p className="text-start">{item.s_name}</p>
                 <p className=" text-end">{item.level}</p>

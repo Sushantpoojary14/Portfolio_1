@@ -17,14 +17,20 @@ const Navbar = () => {
         <div>
           <h2 className="text-2xl">Portfolio</h2>
         </div>
-        <ul className="hidden md:flex flex-row space-x-12 text-xl text-center">
-          <li><a href="#section2">Projects</a></li>
-          <li><a href="#section3">Technologies</a></li>
-          <li><a href="#section4">About Me</a></li>
+        <ul className="hidden md:flex flex-row space-x-12 text-xl text-center h-8">
+
+          <li className="hover:border-b py-2  ">
+            <a href="#section2">Projects</a>
+          </li>
+          <li className="hover:border-b py-2  ">
+            <a href="#section3">Technologies</a>
+          </li>
+          <li className="hover:border-b py-2  ">
+            <a href="#section4">About Me</a>
+          </li>
         </ul>
         <div>
-
-       <Icon/>
+          <Icon />
         </div>
         {/* <div className="flex md:hidden flex-row space-x-4">
           <FontAwesomeIcon
