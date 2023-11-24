@@ -3,33 +3,51 @@
 const skills =[
     {
         s_name: "HTML",
-        bar:"90%",
-        level:"Advance",
+        bar:"70%",
+        level:"intermediate",
       
     },
     {
-        s_name: "HTML",
-        bar:"80%",
-        level:"www",
+        s_name: "CSS",
+        bar:"70%",
+        level:"intermediate",
       
     },
     {
-        s_name: "HTML",
-        bar:"80%",
-        level:"Advance",
+        s_name: "JavaScript",
+        bar:"60%",
+        level:"intermediate",
       
     },
   
     {
-        s_name: "HTML",
-        bar:`80%`,
-        level:"Advance",
+        s_name: "PHP",
+        bar:`60%`,
+        level:"intermediate",
       
     },
     {
-        s_name: "HTML",
+        s_name: "Laravel",
         bar:"60%",
-        level:"Advance",
+        level:"intermediate",
+      
+    },
+    {
+        s_name: "Node JS",
+        bar:"40%",
+        level:"basic",
+      
+    },
+    {
+        s_name: "React JS",
+        bar:"60%",
+        level:"intermediate",
+      
+    },
+    {
+        s_name: "Git",
+        bar:"30%",
+        level:"basic",
       
     },
 ]

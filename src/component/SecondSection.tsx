@@ -61,7 +61,7 @@ const SecondSection = () => {
               >
                 <img
                   src={item.img_url}
-                  className="w-[92%] max-h-44 mx-auto md:mt-3 object-cover"
+                  className="w-[92%] max-h-44 mx-auto md:mt-3 "
                   // onClick={()=>openImage(key)}
                 />
 
@@ -75,7 +75,7 @@ const SecondSection = () => {
                 </div>
                 <div className="flex flex-row  justify-between px-4 ">
                   <a
-                    href={item.git_link}
+                    href={item.web_link}
                     className="w-[140px] sm:w-[45%] lg:w-[45%]"
                     target="_blank"
                   >
