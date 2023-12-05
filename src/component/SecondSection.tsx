@@ -3,7 +3,7 @@ import projects from "../json/projectData";
 import "../assets/css/SecondSection.css";
 // import { useState } from "react";
 // import { useState } from "react";
-
+//helooo 
 type projectType = {
   p_name: string;
   p_description: string;
